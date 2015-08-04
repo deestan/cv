@@ -1,0 +1,144 @@
+{
+  "personalDetails": {
+    "name": {
+      "full": "Helge Skogly Holm",
+      "first": "Helge",
+      "middle": "Skogly",
+      "last": "Holm"
+    },
+    "address": {
+      "lines": [
+        "Løbergsveien 24",
+        "5054 BERGEN"
+      ],
+      "country": "Norway"
+    },
+    "email": "helge.holm@gmail.com",
+    "phone": {
+      "countryCode": "47",
+      "number": "95786636"
+    },
+    "born": "1979-04-07"
+  },
+  "education": [
+    {
+      "start": "2003",
+      "end": "2004",
+      "degree": "master",
+      "school": "University of Bergen",
+      "faculty": "Mathematics and Natural Sciences",
+      "department": "Informatics",
+      "specialization": "algorithms",
+      "short_description": "Master in Informatics, University of Bergen",
+      "description": "Master's degree in Algorithms. Master's thesis encompassed implementation and analysis of broadcast domination algorithms for interval graphs, series-parallel graphs, and trees."
+    },
+    {
+      "start": "1999",
+      "end": "2003",
+      "degree": "bachelor",
+      "school": "University of Bergen",
+      "faculty": "Mathematics and Natural Sciences",
+      "department": "Informatics",
+      "short_description": "Bachelor in Informatics, University of Bergen"
+    },
+    {
+      "start": "1995",
+      "end": "1998",
+      "school": "Åsane Gymnas",
+      "degree": "upper secondary school diploma",
+      "short_description": "Secondary school, Åsane Gymnas"
+    }
+  ],
+  "experience": [
+    {
+      "start": "2001",
+      "title": "Technical Developer",
+      "employer": [
+        "BRIK Teknologier AS",
+        "BRIK Videobase AS"
+      ],
+      "location": "Bergen, Norway",
+      "hats": [
+        "Front-end web developer",
+        "Back-end server developer",
+        "Devops",
+        "Technical project management",
+        "IT administrator"
+      ],
+      "products": [
+        "Exercise Organizer: Maintenance and extension. Solo work. Developed by former colleague. Based on Microsoft IIS and VB.NET",
+        "BRIK CMS: maintenance and extension. Mix of solo work and team of 2. Developed by former colleague. Based on Microsoft IIS and a mix of VB.NET and C#",
+        "OLT Skjemadatabase: Initial work as team effort, team of 3. Took over project completion and further maintenance alone. Based on Microsoft IIS and C#.",
+        "BRIK Video: Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
+      ],
+      "technologies": [
+        "NodeJS",
+        "JavaScript",
+        "Ubuntu",
+        "nginx",
+        "HTML5",
+        "CSS",
+        "git",
+        "C#",
+        "Neo4j",
+        "redis",
+        "varnish",
+        "bind9",
+        "HTTPS",
+        "SAML2 (Feide)",
+        "XenServer",
+        "Amazon S3",
+        "Amazon EC2",
+        "Amazon ET",
+        "Gentoo",
+        "Windows",
+        "VB.NET",
+        "ffmpeg",
+        "npm",
+        "avconv",
+        "CoffeeScript",
+        "stylus",
+        "jade",
+        "mocha",
+        "vpn"
+      ]
+    },
+    { 
+      "start": "2005",
+      "end": "2011",
+      "title": "Programmer",
+      "employer": [ 
+        "Vizrt AS",
+        "Peak Broadcast Systems AS"
+      ],
+      "location": "Bergen, Norway",
+      "hats": [
+        "server developer",
+        "plugin developer",
+        "desktop application developer"
+      ],
+      "products": [
+        "Viz Ticker 3D: Team of 2-3. System for managing, scheduling, and rendering scrolling (news ticker) messages on live broadcast. Multiple parts: Desktop application for configuring and setting up system. Desktop application for managing messages, timing and schedule. Sequencing server plugin for scheduling messages.  Rendering server plugin for displaying messages. Written in Delphi 7, C++, C, C#.",
+        "Viz Ticker Feed: Team of 1-2. System for automated managing of messages for Ticker 3D system.  Written in Python2.",
+        "Viz Ticker Synchronizer: Team of 1-2. Server and desktop application for live replicating of Ticker 3D content and some failover management. Written in Python2, then rewritten in C#.",
+        "Viz Media Sequencer: Occasional. Team of 3-10. Extension of server for managing graphics behavior on live broadcast. Written in C++.",
+        "Viz NLE: Occasional. Team of 2-4. Library for inserting 3D graphics into videos. Plugins for AVID and Final Cut Pro. Written in C++.",
+        "Wine Lottery: Solo. Internal wine lottery visual spectacle raffle based on old Eurovision voting graphics, rendered via Viz Engine. Integrates with random.org. Written in Python.",
+        "PepTalk: Team of 3-4. Specification and implementation of socket-based communication protocol for managing content in Viz Media Sequencer."
+      ],
+      "technologies": [ 
+        "C#",
+        "Python 2",
+        "C++",
+        "Subversion",
+        "Mercurial",
+        "Viz Artist",
+        "Delphi 7",
+        "scons",
+        "Debian",
+        "Windows",
+        "DCOM"
+      ]
+    }
+  ]
+}
