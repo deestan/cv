@@ -1,52 +1,35 @@
 {
-  "personalDetails": {
-    "name": {
-      "full": "Helge Skogly Holm",
-      "first": "Helge",
-      "middle": "Skogly",
-      "last": "Holm"
-    },
-    "address": {
-      "lines": [
-        "Løbergsveien 24",
-        "5054 BERGEN"
-      ],
-      "country": "Norway"
-    },
+  "summary": "Programmer",
+  "contact": {
+    "name": "Helge Skogly Holm",
+    "address": [
+      "Løbergsveien 24",
+      "5054 BERGEN",
+      "Norway"
+    ],
     "email": "helge.holm@gmail.com",
-    "phone": {
-      "countryCode": "47",
-      "number": "95786636"
-    },
+    "phone": "+47 95786636",
     "born": "1979-04-07"
   },
   "education": [
     {
       "start": "2003",
       "end": "2004",
-      "degree": "master",
+      "summary": "Master in Informatics, University of Bergen",
       "school": "University of Bergen",
-      "faculty": "Mathematics and Natural Sciences",
-      "department": "Informatics",
-      "specialization": "algorithms",
-      "short_description": "Master in Informatics, University of Bergen",
       "description": "Master's degree in Algorithms. Master's thesis encompassed implementation and analysis of broadcast domination algorithms for interval graphs, series-parallel graphs, and trees."
     },
     {
       "start": "1999",
       "end": "2003",
-      "degree": "bachelor",
       "school": "University of Bergen",
-      "faculty": "Mathematics and Natural Sciences",
-      "department": "Informatics",
-      "short_description": "Bachelor in Informatics, University of Bergen"
+      "summary": "Bachelor in Informatics, University of Bergen"
     },
     {
       "start": "1995",
       "end": "1998",
       "school": "Åsane Gymnas",
-      "degree": "upper secondary school diploma",
-      "short_description": "Secondary school, Åsane Gymnas"
+      "summary": "Secondary school, Åsane Gymnas"
     }
   ],
   "experience": [
@@ -67,8 +50,8 @@
       ],
       "products": [
         "Exercise Organizer: Maintenance and extension. Solo work. Developed by former colleague. Based on Microsoft IIS and VB.NET",
-        "BRIK CMS: maintenance and extension. Mix of solo work and team of 2. Developed by former colleague. Based on Microsoft IIS and a mix of VB.NET and C#",
-        "OLT Skjemadatabase: Initial work as team effort, team of 3. Took over project completion and further maintenance alone. Based on Microsoft IIS and C#.",
+        "BRIK CMS: Maintenance and extension. Mix of solo work and team of 2. Developed by former colleague. Based on Microsoft IIS and a mix of VB.NET and C#",
+        "Olympiatoppen Skjemadatabase: Initial work as team effort, team of 3. Took over project completion and further maintenance alone. Based on Microsoft IIS and C#.",
         "BRIK Video: Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
       ],
       "technologies": [
@@ -139,6 +122,67 @@
         "Windows",
         "DCOM"
       ]
+    },
+    {
+      "start": "1999",
+      "end": "2004",
+      "title": "Night shift logistics",
+      "employer": [
+        "Marine Harvest AS",
+        "Hydro Seafood AS"
+      ],
+      "location": "Bergen, Norway",
+      "hats": [
+        "allocation of harvest",
+        "toll documents",
+        "data entry",
+        "transfer to new inventory management system"
+      ]
+    },
+    {
+      "start": "2003",
+      "end": "2004",
+      "title": "Agent",
+      "employer": "Det Akademiske Kvarter, E-Tjenesten",
+      "hats": [
+        "maintenance infrastructure",
+        "development of internal tools"
+      ],
+      "products": [
+        "Hardware and software to play music in one of the bathroom stall. Team of 1-2. Written in Java using JNI.",
+        "Monitoring tool. Show operational status of internal servers. Team of 1-2. Written in Java."
+      ],
+      "technologies": [ 
+        "Java",
+        "debian"
+      ]
+    },
+    {
+      "start": "2002-06-01",
+      "end": "2002-09-01",
+      "title": "Programmer",
+      "employer": "Univesity of Bergen",
+      "hats": [
+        "client programming"
+      ],
+      "products": [
+        "Full time development of live messaging system, server and client. Team of 4. Written in Java."
+      ],
+      "technologies": [
+        "java"
+      ]
+    },
+    {
+      "start": "1998-08-01",
+      "end": "1999-07-01",
+      "title": "Private, mandatory service",
+      "employer": "Royal Guard, Norwegian Army"
+    },
+    {
+      "start": "1996-08-01",
+      "end": "1998-08-01",
+      "title": "Paperboy",
+      "employer": "Bergens Tidende AS"
     }
   ]
 }
