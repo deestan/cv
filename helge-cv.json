@@ -1,5 +1,5 @@
 {
-  "summary": "Programmer",
+  "summary": "Detail-oriented full-stack programmer. Comfortable with object-oriented, imperative and functional programming styles. Proponent of automated testing. Thinks the Agile Manifesto is pretty neat.",
   "contact": {
     "name": "Helge Skogly Holm",
     "address": [
@@ -11,6 +11,11 @@
     "phone": "+47 95786636",
     "born": "1979-04-07"
   },
+  "personal": [
+    "Fiddling with interesting languages, like Haskell.",
+    "Game development.",
+    "Various online challenges, like TopCoder, Project Euler, CodeGolf, etc."
+  ],
   "education": [
     {
       "start": "2003",
@@ -109,7 +114,7 @@
         "Wine Lottery: Solo. Internal wine lottery visual spectacle raffle based on old Eurovision voting graphics, rendered via Viz Engine. Integrates with random.org. Written in Python.",
         "PepTalk: Team of 3-4. Specification and implementation of socket-based communication protocol for managing content in Viz Media Sequencer."
       ],
-      "technologies": [ 
+      "technologies": [
         "C#",
         "Python 2",
         "C++",
@@ -152,7 +157,7 @@
         "Hardware and software to play music in one of the bathroom stall. Team of 1-2. Written in Java using JNI.",
         "Monitoring tool. Show operational status of internal servers. Team of 1-2. Written in Java."
       ],
-      "technologies": [ 
+      "technologies": [
         "Java",
         "debian"
       ]
