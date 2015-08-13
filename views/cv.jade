@@ -1,0 +1,19 @@
+doctype html
+.h-resume
+  .p-name Helge Skogly Holm, Curriculum Vitae
+  .p-summary= summary
+  .p-contact.h-card
+    span.p-name= contact.name
+    a.u-email(href="mailto:#{contact.email}")= contact.email
+    ul.p-adr
+      each line in contact.address
+        li= line
+  ul.education Education
+    each entry in education
+      li.p-education.h-event
+        h1.p-name= entry.summary
+        span.dt-start= entry.start
+        | -
+        span.dt-end= entry.end
+        .p-summary= entry.description
+  .p-experience yes
