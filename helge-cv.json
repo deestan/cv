@@ -148,7 +148,9 @@
       "start": "2003",
       "end": "2004",
       "title": "Agent",
-      "employer": "Det Akademiske Kvarter, E-Tjenesten",
+      "employer": [
+        "Det Akademiske Kvarter, E-Tjenesten"
+      ],
       "hats": [
         "maintenance infrastructure",
         "development of internal tools"
@@ -166,7 +168,9 @@
       "start": "2002-06-01",
       "end": "2002-09-01",
       "title": "Programmer",
-      "employer": "Univesity of Bergen",
+      "employer": [
+        "Univesity of Bergen"
+      ],
       "hats": [
         "client programming"
       ],
@@ -181,13 +185,17 @@
       "start": "1998-08-01",
       "end": "1999-07-01",
       "title": "Private, mandatory service",
-      "employer": "Royal Guard, Norwegian Army"
+      "employer": [
+        "Royal Guard, Norwegian Army"
+      ]
     },
     {
       "start": "1996-08-01",
       "end": "1998-08-01",
       "title": "Paperboy",
-      "employer": "Bergens Tidende AS"
+      "employer": [
+        "Bergens Tidende AS"
+      ]
     }
   ]
 }

@@ -6,9 +6,8 @@ app.set('views', __dirname + '/views')
 app.set('view engine', 'jade')
 app.use(express.static(__dirname + '/static'));
 
-var cv = JSON.parse(require('fs').readFileSync('helge-cv.json'));
-
 app.get('/', function (req, res) {
+  var cv = JSON.parse(require('fs').readFileSync('helge-cv.json'));
   res.render('cv', cv);
 });
 
