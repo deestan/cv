@@ -23,8 +23,9 @@ doctype html
       li.p-experience.h-event
         h3.p-name
           =entry.title
-          |,
-          =entry.employer
+          |, 
+          each name in entry.employer
+            span.employer-name= name
         span.dt-start= entry.start
         | &mdash;
         span.dt-end= entry.end
@@ -34,3 +35,9 @@ doctype html
           ul.roles
             each hat in entry.hats
               li= hat
+  h2 Personal Projects
+  ul.personal-projects
+    each entry in personalProjects
+      h3= entry.title
+      p= entry.summary
+      a.project-link(href=entry.url)= entry.url

@@ -197,5 +197,22 @@
         "Bergens Tidende AS"
       ]
     }
+  ],
+  "personalProjects": [
+    {
+      "title": "randy",
+      "summary": "JavaScript random number utility library inspired by the Python module 'random'.  Useable as a client-side library and as a Node.js module. Implements WELL-1024a PRNG.",
+      "url": "https://github.com/deestan/randy"
+    },
+    {
+      "title": "Space Invaders for Windows",
+      "summary": "Space Invaders clone I wrote for my kids as a vessel for exploring Unity.",
+      "url": "https://plyply.com/spaceinvaders/spaceinvaders-setup.msi"
+    },
+    {
+      "title": "Raffle Runners",
+      "summary": "Animated raffle tool using stickman sprinters to settle the outcome.  Randomness provided by the 'randy' library.",
+      "url": "https://plyply.com/beerlottery/"
+    }
   ]
 }
