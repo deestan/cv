@@ -1,5 +1,5 @@
 {
-  "summary": "Detail-oriented full-stack programmer. Comfortable with object-oriented, imperative and functional programming. Proponent of automated testing. Thinks the Agile Manifesto is pretty neat.",
+  "summary": "Detail-oriented full-stack programmer. Comfortable with object-oriented, imperative and functional programming. Proponent of automated testing. Thinks the Agile Manifesto is pretty neat. Communicates well with non-programmers.",
   "contact": {
     "name": "Helge Skogly Holm",
     "address": [
@@ -11,11 +11,35 @@
     "phone": "+47 95786636",
     "born": "1979-04-07"
   },
-  "personal": [
-    "Fiddling with interesting languages, like Haskell.",
-    "Game development.",
-    "Various online challenges, like TopCoder, Project Euler, CodeGolf, etc."
-  ],
+  "personal": {
+    "interests": [
+      "Fiddling with interesting languages, like Haskell.",
+      "Game development.",
+      "Various online challenges, like TopCoder, Project Euler, CodeGolf, etc."
+    ],
+    "projects": [
+      {
+        "title": "randy",
+        "summary": "JavaScript random number utility library inspired by the Python module 'random'.  Usable as a client-side library and as a Node.js module. Implements WELL-1024a PRNG.",
+        "url": "https://github.com/deestan/randy"
+      },
+      {
+        "title": "srt2vtt",
+        "summary": "Encoding-aware .srt (SubRip Text) to .vtt (WebVTT) converter.  Node.js module written in JavaScript.",
+        "url": "https://github.com/deestan/srt2vtt"
+      },
+      {
+        "title": "Space Invaders for Windows",
+        "summary": "Space Invaders clone I wrote for my kids as a vessel for exploring the Unity engine.",
+        "url": "https://plyply.com/spaceinvaders/spaceinvaders-setup.msi"
+      },
+      {
+        "title": "Raffle Runners",
+        "summary": "Animated raffle tool using stickman sprinters to settle the outcome.  Randomness provided by the 'randy' library.",
+        "url": "https://plyply.com/beerlottery/"
+      }
+    ]
+  },
   "education": [
     {
       "start": "2003",
@@ -198,28 +222,6 @@
       "employer": [
         "Bergens Tidende AS"
       ]
-    }
-  ],
-  "personalProjects": [
-    {
-      "title": "randy",
-      "summary": "JavaScript random number utility library inspired by the Python module 'random'.  Usable as a client-side library and as a Node.js module. Implements WELL-1024a PRNG.",
-      "url": "https://github.com/deestan/randy"
-    },
-    {
-      "title": "srt2vtt",
-      "summary": "Encoding-aware .srt (SubRip Text) to .vtt (WebVTT) converter.  Node.js module written in JavaScript.",
-      "url": "https://github.com/deestan/srt2vtt"
-    },
-    {
-      "title": "Space Invaders for Windows",
-      "summary": "Space Invaders clone I wrote for my kids as a vessel for exploring Unity.",
-      "url": "https://plyply.com/spaceinvaders/spaceinvaders-setup.msi"
-    },
-    {
-      "title": "Raffle Runners",
-      "summary": "Animated raffle tool using stickman sprinters to settle the outcome.  Randomness provided by the 'randy' library.",
-      "url": "https://plyply.com/beerlottery/"
     }
   ]
 }

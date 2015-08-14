@@ -87,3 +87,24 @@ a {
 .employer-name:first-child {
     display: inline;
 }
+
+.role {
+    display: inline;
+}
+
+.role:after {
+    content: ", ";
+}
+
+.role:last-child:after {
+    content: "";
+}
+
+ul.products {
+    padding-left: 30px;
+    list-style-type: circle;
+}
+li.product {
+    margin-bottom: 2px;
+    list-style-type: bullet;
+}

@@ -39,10 +39,14 @@ title
             span.dt-end= entry.end.substr(0, 4)
         .p-summary= entry.description
         if entry.hats
-          h4 Roles
           ul.roles
             each hat in entry.hats
-              li= hat
+              li.role= hat
+        if entry.products
+          h4 Worked on
+          ul.products
+            each product in entry.products
+              li.product= product
 
   h2 Education
   ul.education.section
@@ -57,9 +61,14 @@ title
 
   h2 Personal Projects
   ul.projects.section
-    each entry in personalProjects
+    each entry in personal.projects
       li.project
         .title= entry.title
         .summary= entry.summary
         p
           a.url(href=entry.url)= entry.url
+
+  h2 Recreational Programming
+  ul.interests.section
+    each entry in personal.interests
+      li.interest= entry
