@@ -111,15 +111,28 @@ a {
 
 .product .title {
     font-weight: bold;
-    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product .title:hover {
+    background: #fff;
+    transition: 0.3s;
 }
 
 .product .summary {
     max-height: 0;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
+}
+
+.product .title:before {
+    content: "▲";
 }
 
 .product.visible .summary {
     max-height: 400px;
+}
+
+.product.visible .title:before {
+    content: "▼";
 }
