@@ -1,6 +1,17 @@
 doctype html
+meta(name="viewport" content="width=device-width, initial-scale=1")
+link(href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css")
+link(href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css')
+link(rel="stylesheet" type="text/css" href="style.css")
+
+title
+  | CV - 
+  =contact.name
+
 .h-resume
-  h2.p-name Helge Skogly Holm, Curriculum Vitae
+  h2.p-name
+    span= contact.name
+    |, Curriculum Vitae
   .p-summary= summary
   .p-contact.h-card
     span.p-name= contact.name
