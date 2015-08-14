@@ -78,10 +78,22 @@
         "IT administrator"
       ],
       "products": [
-        "Exercise Organizer: Maintenance and extension. Solo work. Developed by former colleague. Based on Microsoft IIS and VB.NET",
-        "BRIK CMS: Maintenance and extension. Mix of solo work and team of 2. Developed by former colleague. Based on Microsoft IIS and a mix of VB.NET and C#",
-        "Olympiatoppen Skjemadatabase: Initial work as team effort, team of 3. Took over project completion and further maintenance alone. Based on Microsoft IIS and C#.",
-        "BRIK Video: Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
+        {
+          "title": "Exercise Organizer",
+          "summary": "Maintenance and extension. Solo work. Developed by former colleague. Based on Microsoft IIS and VB.NET"
+        },
+        {
+          "title": "BRIK CMS",
+          "summary": "Maintenance and extension. Mix of solo work and team of 2. Developed by former colleague. Based on Microsoft IIS and a mix of VB.NET and C#"
+        },
+        {
+          "title": "Olympiatoppen Skjemadatabase",
+          "summary": "Initial work as team effort, team of 3. Took over project completion and further maintenance alone. Based on Microsoft IIS and C#."
+        },
+        {
+          "title": "BRIK Video",
+          "summary": "Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
+        }
       ],
       "technologies": [
         "NodeJS",
@@ -130,13 +142,34 @@
         "desktop application developer"
       ],
       "products": [
-        "Viz Ticker 3D: Team of 2-3. System for managing, scheduling, and rendering scrolling (news ticker) messages on live broadcast. Multiple parts: Desktop application for configuring and setting up system. Desktop application for managing messages, timing and schedule. Sequencing server plugin for scheduling messages.  Rendering server plugin for displaying messages. Written in Delphi 7, C++, C, C#.",
-        "Viz Ticker Feed: Team of 1-2. System for automated managing of messages for Ticker 3D system.  Written in Python2.",
-        "Viz Ticker Synchronizer: Team of 1-2. Server and desktop application for live replicating of Ticker 3D content and some failover management. Written in Python2, then rewritten in C#.",
-        "Viz Media Sequencer: Occasional. Team of 3-10. Extension of server for managing graphics behavior on live broadcast. Written in C++.",
-        "Viz NLE: Occasional. Team of 2-4. Library for inserting 3D graphics into videos. Plugins for AVID and Final Cut Pro. Written in C++.",
-        "Wine Lottery: Solo. Internal wine lottery visual spectacle raffle based on old Eurovision voting graphics, rendered via Viz Engine. Integrates with random.org. Written in Python.",
-        "PepTalk: Team of 3-4. Specification and implementation of socket-based communication protocol for managing content in Viz Media Sequencer."
+        {
+          "title": "Viz Ticker 3D",
+          "summary": "Team of 2-3. System for managing, scheduling, and rendering scrolling (news ticker) messages on live broadcast. Multiple parts: Desktop application for configuring and setting up system. Desktop application for managing messages, timing and schedule. Sequencing server plugin for scheduling messages.  Rendering server plugin for displaying messages. Written in Delphi 7, C++, C, C#."
+        },
+        {
+          "title": "Viz Ticker Feed",
+          "summary": "Team of 1-2. System for automated managing of messages for Ticker 3D system.  Written in Python2."
+        },
+        {
+          "title": "Viz Ticker Synchronizer",
+          "summary": "Team of 1-2. Server and desktop application for live replicating of Ticker 3D content and some failover management. Written in Python2, then rewritten in C#."
+        },
+        {
+          "title": "Viz Media Sequencer",
+          "summary": "Occasional. Team of 3-10. Extension of server for managing graphics behavior on live broadcast. Written in C++."
+        },
+        {
+          "title": "Viz NLE",
+          "summary": "Occasional. Team of 2-4. Library for inserting 3D graphics into videos. Plugins for AVID and Final Cut Pro. Written in C++."
+        },
+        {
+          "title": "Wine Lottery",
+          "summary": "Solo. Internal wine lottery visual spectacle raffle based on old Eurovision voting graphics, rendered via Viz Engine. Integrates with random.org. Written in Python."
+        },
+        {
+          "title": "PepTalk",
+          "summary": "Team of 3-4. Specification and implementation of socket-based communication protocol for managing content in Viz Media Sequencer."
+        }
       ],
       "technologies": [
         "C#",

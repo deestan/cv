@@ -43,10 +43,11 @@ title
             each hat in entry.hats
               li.role= hat
         if entry.products
-          h4 Worked on
           ul.products
             each product in entry.products
-              li.product= product
+              li.product
+                .title= product.title
+                span.summary= product.summary
 
   h2 Education
   ul.education.section

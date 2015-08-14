@@ -47,8 +47,16 @@ a:hover {
     list-style-type: none;
 }
 
+li.product {
+    margin-bottom: 4px;
+}
+
 li.project, li.p-experience, li.p-education {
-    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+li:last-child {
+    margin-bottom: 0;
 }
 
 li.p-experience, li.p-education {
@@ -90,6 +98,7 @@ a {
 
 .role {
     display: inline;
+    font-style: italic;
 }
 
 .role:after {
@@ -100,11 +109,7 @@ a {
     content: "";
 }
 
-ul.products {
-    padding-left: 30px;
-    list-style-type: circle;
-}
-li.product {
-    margin-bottom: 2px;
-    list-style-type: bullet;
+.product .title {
+    font-weight: bold;
+    margin-right: 10px;
 }
