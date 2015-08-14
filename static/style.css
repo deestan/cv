@@ -1,10 +1,12 @@
-body, html, ul {
+body, html, ul, p {
     margin: 0;
     padding: 0;
 }
 
 body {
     font-family: 'Slabo 27px', serif;
+    background: #D9EEDE;
+    color: #000601;
 }
 
 h1, h2, h3, h4 {
@@ -12,14 +14,32 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
+h1, h2 {
+    background: #80C18E;
+    padding: 2px;
+}
+
 .section {
     padding: 5px;
-    background: #8a9a9a;
     margin-bottom: 5px;
 }
 
-.p-contact .p-name, .p-contact .u-email {
-    display: block;
+.timespan {
+    font-style: italic;
+}
+
+a {
+    background: #2A853E;
+    color: #D9EEDE;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 3px 5px;
+    font-family: monospace;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #80C18E;
 }
 
 .p-adr li {
@@ -28,14 +48,22 @@ h1, h2, h3, h4 {
 }
 
 li.project, li.p-experience, li.p-education {
-    margin-top: 5px;
+    margin-top: 8px;
+}
+
+li.p-experience, li.p-education {
+    display: none;
+}
+
+li.p-experience:nth-child(-n+3), li.p-education:nth-child(-n+3) {
+    display: block;
 }
 
 .projects .title {
     font-weight: bold;
 }
 
-.projects li:first-child {
+li:first-child {
     margin-top: 0;
 }
 
@@ -48,7 +76,8 @@ a {
 }
 
 .projects .url {
-    display: block;
+    display: inline-block;
+    word-break: break-all;
 }
 
 .employer-name {

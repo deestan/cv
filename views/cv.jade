@@ -17,26 +17,12 @@ title
   .section
     .p-contact.h-card
       span.p-name= contact.name
-      a.u-email(href="mailto:#{contact.email}")= contact.email
+      p
+        a.u-email(href="mailto:#{contact.email}")= contact.email
       ul.p-adr
         each line in contact.address
           li= line
-  h2 Personal Projects
-  ul.projects.section
-    each entry in personalProjects
-      li.project
-        .title= entry.title
-        .summary= entry.summary
-        a.url(href=entry.url)= entry.url
-  h2 Education
-  ul.education.section
-    each entry in education
-      li.p-education.h-event
-        h3.p-name= entry.summary
-        span.dt-start= entry.start.substr(0, 4)
-        | &mdash;
-        span.dt-end= entry.end.substr(0, 4)
-        .p-summary= entry.description
+
   h2 Experience
   ul.experience.section
     each entry in experience
@@ -46,13 +32,34 @@ title
           |, 
           each name in entry.employer
             span.employer-name= name
-        span.dt-start= entry.start.substr(0, 4)
-        | &mdash;
-        if entry.end
-          span.dt-end= entry.end.substr(0, 4)
+        .timespan
+          span.dt-start= entry.start.substr(0, 4)
+          | &mdash;
+          if entry.end
+            span.dt-end= entry.end.substr(0, 4)
         .p-summary= entry.description
         if entry.hats
           h4 Roles
           ul.roles
             each hat in entry.hats
               li= hat
+
+  h2 Education
+  ul.education.section
+    each entry in education
+      li.p-education.h-event
+        h3.p-name= entry.summary
+        .timespan
+          span.dt-start= entry.start.substr(0, 4)
+          | &mdash;
+          span.dt-end= entry.end.substr(0, 4)
+        .p-summary= entry.description
+
+  h2 Personal Projects
+  ul.projects.section
+    each entry in personalProjects
+      li.project
+        .title= entry.title
+        .summary= entry.summary
+        p
+          a.url(href=entry.url)= entry.url

@@ -203,7 +203,7 @@
   "personalProjects": [
     {
       "title": "randy",
-      "summary": "JavaScript random number utility library inspired by the Python module 'random'.  Useable as a client-side library and as a Node.js module. Implements WELL-1024a PRNG.",
+      "summary": "JavaScript random number utility library inspired by the Python module 'random'.  Usable as a client-side library and as a Node.js module. Implements WELL-1024a PRNG.",
       "url": "https://github.com/deestan/randy"
     },
     {
