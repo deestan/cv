@@ -1,4 +1,4 @@
-body, html {
+body, html, ul {
     margin: 0;
     padding: 0;
 }
@@ -7,6 +7,54 @@ body {
     font-family: 'Slabo 27px', serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.section {
+    padding: 5px;
+    background: #8a9a9a;
+    margin-bottom: 5px;
+}
+
+.p-contact .p-name, .p-contact .u-email {
+    display: block;
+}
+
+.p-adr li {
+    padding: 0;
+    list-style-type: none;
+}
+
+li.project, li.p-experience, li.p-education {
+    margin-top: 5px;
+}
+
+.projects .title {
+    font-weight: bold;
+}
+
+.projects li:first-child {
+    margin-top: 0;
+}
+
+.projects .summary {
+    display: inline;
+}
+
+a {
+    word-wrap: break-word;
+}
+
+.projects .url {
+    display: block;
+}
+
+.employer-name {
+    display: none;
+}
+
+.employer-name:first-child {
+    display: inline;
 }

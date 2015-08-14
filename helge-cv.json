@@ -1,5 +1,5 @@
 {
-  "summary": "Detail-oriented full-stack programmer. Comfortable with object-oriented, imperative and functional programming styles. Proponent of automated testing. Thinks the Agile Manifesto is pretty neat.",
+  "summary": "Detail-oriented full-stack programmer. Comfortable with object-oriented, imperative and functional programming. Proponent of automated testing. Thinks the Agile Manifesto is pretty neat.",
   "contact": {
     "name": "Helge Skogly Holm",
     "address": [
@@ -39,7 +39,7 @@
   ],
   "experience": [
     {
-      "start": "2001",
+      "start": "2011",
       "title": "Technical Developer",
       "employer": [
         "BRIK Teknologier AS",
@@ -47,10 +47,10 @@
       ],
       "location": "Bergen, Norway",
       "hats": [
-        "Front-end web developer",
-        "Back-end server developer",
-        "Devops",
-        "Technical project management",
+        "front-end web developer",
+        "back-end server developer",
+        "devops",
+        "technical project management",
         "IT administrator"
       ],
       "products": [
@@ -141,7 +141,7 @@
         "allocation of harvest",
         "toll documents",
         "data entry",
-        "transfer to new inventory management system"
+        "system migration"
       ]
     },
     {
@@ -172,6 +172,8 @@
         "Univesity of Bergen"
       ],
       "hats": [
+        "system design",
+        "server programming",
         "client programming"
       ],
       "products": [
