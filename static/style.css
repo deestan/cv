@@ -1,0 +1,12 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Slabo 27px', serif;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
