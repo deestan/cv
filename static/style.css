@@ -113,3 +113,13 @@ a {
     font-weight: bold;
     margin-right: 10px;
 }
+
+.product .summary {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.product.visible .summary {
+    max-height: 400px;
+}

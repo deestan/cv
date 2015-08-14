@@ -3,6 +3,8 @@ meta(name="viewport" content="width=device-width, initial-scale=1")
 link(href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css")
 link(href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css')
 link(rel="stylesheet" type="text/css" href="style.css")
+script(src="jquery-1.11.3.min.js")
+script(src="cv.js")
 
 title
   | CV - 
@@ -47,7 +49,7 @@ title
             each product in entry.products
               li.product
                 .title= product.title
-                span.summary= product.summary
+                .summary= product.summary
 
   h2 Education
   ul.education.section
