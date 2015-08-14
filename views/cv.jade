@@ -1,6 +1,6 @@
 doctype html
 .h-resume
-  .p-name Helge Skogly Holm, Curriculum Vitae
+  h2.p-name Helge Skogly Holm, Curriculum Vitae
   .p-summary= summary
   .p-contact.h-card
     span.p-name= contact.name
@@ -8,6 +8,13 @@ doctype html
     ul.p-adr
       each line in contact.address
         li= line
+  h2 Personal Projects
+  ul.projects
+    each entry in personalProjects
+      li.project
+        .title= entry.title
+        .summary= entry.summary
+        a.url(href=entry.url) entry.url
   h2 Education
   ul.education
     each entry in education
