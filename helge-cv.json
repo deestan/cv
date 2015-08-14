@@ -205,6 +205,11 @@
       "url": "https://github.com/deestan/randy"
     },
     {
+      "title": "srt2vtt",
+      "summary": "Encoding-aware .srt (SubRip Text) to .vtt (WebVTT) converter.  Node.js module written in JavaScript.",
+      "url": "https://github.com/deestan/srt2vtt"
+    },
+    {
       "title": "Space Invaders for Windows",
       "summary": "Space Invaders clone I wrote for my kids as a vessel for exploring Unity.",
       "url": "https://plyply.com/spaceinvaders/spaceinvaders-setup.msi"
