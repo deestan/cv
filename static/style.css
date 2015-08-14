@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-h1, h2 {
+h1 {
     background: #80C18E;
     padding: 2px;
 }
@@ -52,10 +52,10 @@ li.product {
 }
 
 li.project, li.p-experience, li.p-education {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
-li:last-child {
+li.project:last-child, li.p-experience:last-child, li.p-education:last-child {
     margin-bottom: 0;
 }
 
@@ -98,7 +98,6 @@ a {
 
 .role {
     display: inline;
-    font-style: italic;
 }
 
 .role:after {
@@ -135,4 +134,20 @@ a {
 
 .product.visible .title:before {
     content: "▼";
+}
+
+li.technology {
+    font-style: italic;
+}
+
+li.technology .name {
+    white-space: nowrap;
+}
+
+li.technology, ul.technologies {
+    display: inline;
+}
+
+li.technology:last-child .comma {
+    display: none;
 }

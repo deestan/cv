@@ -11,7 +11,7 @@ title
   =contact.name
 
 .h-resume
-  h2.p-name
+  h1.p-name
     span= contact.name
     |, Curriculum Vitae
   .section
@@ -25,11 +25,11 @@ title
         each line in contact.address
           li= line
 
-  h2 Experience
+  h1 Experience
   ul.experience.section
     each entry in experience
       li.p-experience.h-event
-        h3.p-name
+        h2.p-name
           =entry.title
           |, 
           each name in entry.employer
@@ -50,19 +50,26 @@ title
               li.product
                 .title= product.title
                 .summary= product.summary
+        if entry.technologies
+          span Technologies: 
+            ul.technologies
+              each tech in entry.technologies
+                li.technology
+                  span.name= tech
+                  span.comma , 
 
-  h2 Education
+  h1 Education
   ul.education.section
     each entry in education
       li.p-education.h-event
-        h3.p-name= entry.summary
+        h2.p-name= entry.summary
         .timespan
           span.dt-start= entry.start.substr(0, 4)
           | &mdash;
           span.dt-end= entry.end.substr(0, 4)
         .p-summary= entry.description
 
-  h2 Personal Projects
+  h1 Personal Projects
   ul.projects.section
     each entry in personal.projects
       li.project
@@ -71,7 +78,7 @@ title
         p
           a.url(href=entry.url)= entry.url
 
-  h2 Recreational Programming
+  h1 Recreational Programming
   ul.interests.section
     each entry in personal.interests
       li.interest= entry
