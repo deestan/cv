@@ -1,5 +1,9 @@
 @media print {
     * {
+        transition: none !important;
+    }
+
+    a {
         color: #000;
     }
 
