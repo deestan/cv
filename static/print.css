@@ -1,0 +1,21 @@
+@media print {
+    * {
+        color: #000;
+    }
+
+    .h-event, li {
+        page-break-inside: avoid;
+    }
+
+    .product .summary {
+        max-height: 400px;
+    }
+
+    .product .title:before {
+        content: "";
+    }
+
+    a {
+        padding: 0;
+    }
+}
