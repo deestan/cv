@@ -130,6 +130,10 @@ a {
 .product .title:before {
     content: "▲";
     color: #2A853E;
+    line-height: 0;
+    display: inline-block;
+    width: 16px;
+    text-align: center;
 }
 
 .product.visible .summary {
