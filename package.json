@@ -4,7 +4,7 @@
   "description": "Personal CV for Helge Holm",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/forever/bin/forever -w server.js"
+    "start": "./node_modules/forever/bin/forever --minUptime=1000 --spinSleepTime=1000 -w server.js"
   },
   "author": "helge.holm@gmail.com",
   "license": "ISC",
