@@ -3,12 +3,15 @@
         color: #000;
     }
 
-    .h-event, li {
+    li li {
         page-break-inside: avoid;
     }
 
     .product .summary {
         max-height: 400px;
+        padding-left: 0;
+        margin-left: 0;
+        border-left: none;
     }
 
     .product .title:before {
