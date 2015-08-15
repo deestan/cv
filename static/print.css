@@ -15,7 +15,7 @@
     }
 
     .product .title:before {
-        content: "";
+        display: none;
     }
 
     a {
