@@ -79,8 +79,8 @@
       ],
       "products": [
         {
-          "title": "Exercise Organizer",
-          "summary": "Maintenance and extension. Solo work. Developed by former colleague. Based on Microsoft IIS and VB.NET"
+          "title": "BRIK Video",
+          "summary": "Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
         },
         {
           "title": "BRIK CMS",
@@ -91,8 +91,8 @@
           "summary": "Initial work as team effort, team of 3. Took over project completion and further maintenance alone. Based on Microsoft IIS and C#."
         },
         {
-          "title": "BRIK Video",
-          "summary": "Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
+          "title": "Exor Live",
+          "summary": "Online exercise database for physical therapists and exercise professionals. Maintenance and extension. Solo work. Developed by former colleague. Based on Microsoft IIS and VB.NET"
         }
       ],
       "technologies": [
