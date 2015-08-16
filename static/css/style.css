@@ -204,6 +204,34 @@ li.technology:last-child .comma {
     text-decoration: underline;
 }
 
+/* "desktop view" */
+
+@media (min-width: 800px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+    }
+}
+
+@media (min-width: 350px) {
+    .portrait.small {
+        width: 0;
+    }
+
+    .portrait.large {
+        width: 134px;
+    }
+}
+
+@media (min-width: 500px) {
+    .h-resume {
+        padding: 5px;
+    }
+}
+
+/* silliness */
+
 @keyframes woah {
     0%   { background: red }
     14%  { background: orange }
