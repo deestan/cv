@@ -4,7 +4,9 @@
         margin-right: auto;
         width: 800px;
     }
+}
 
+@media (min-width: 350px) {
     .portrait.small {
         display: none;
     }
