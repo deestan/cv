@@ -265,7 +265,7 @@ li.technology:last-child .comma {
     100% { background: red }
 }
 
-woah {
+.woah:hover {
     animation: woah 2s linear 0s infinite;
     -webkit-animation: woah 2s linear 0s infinite;
     -moz-animation: woah 2s linear 0s infinite;
