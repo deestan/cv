@@ -8,10 +8,16 @@
 
 @media (min-width: 350px) {
     .portrait.small {
-        display: none;
+        width: 0;
     }
 
     .portrait.large {
-        display: inline;
+        width: 134px;
+    }
+}
+
+@media (min-width: 500px) {
+    .h-resume {
+        padding: 5px;
     }
 }

@@ -13,6 +13,10 @@ body {
     color: #000601;
 }
 
+.h-resume {
+    transition: 0.3s;
+}
+
 h1, h2, h3, h4 {
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -32,10 +36,15 @@ h1 {
 .portrait {
     border: 0;
     float: right;
+    transition: 0.3s;
+}
+
+.portrait.small {
+    width: 80px;
 }
 
 .portrait.large {
-    display: none;
+    width: 0;
 }
 
 .timespan {
