@@ -25,4 +25,8 @@
     a {
         padding: 0;
     }
+
+    .bottom {
+        display: none;
+    }
 }
