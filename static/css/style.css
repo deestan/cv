@@ -1,5 +1,5 @@
 html {
-    background: #E9FEEE;
+    background: #D9EEDE;
 }
 
 body, html, ul, p {
@@ -9,7 +9,7 @@ body, html, ul, p {
 
 body {
     font-family: 'Slabo 27px', serif;
-    background: #D9EEDE;
+    background: #F9FFFE;
     color: #000601;
 }
 
@@ -190,7 +190,7 @@ li.technology:last-child .comma {
 
 .bottom {
     display: flex;
-    background: #E9FEEE;
+    background: #D9EEDE;
 }
 
 .bottom .button-segment {
