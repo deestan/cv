@@ -137,21 +137,26 @@ a {
     border-left: 1px solid #2A853E;
 }
 
-.product .title:before {
-    content: "▲";
-    color: #2A853E;
-    line-height: 0;
-    display: inline-block;
-    width: 16px;
-    text-align: center;
-}
-
 .product.visible .summary {
+    transition-delay: 0.1s;
     max-height: 400px;
 }
 
-.product.visible .title:before {
-    content: "▼";
+.caret {
+    display: inline;
+    line-height: 0;
+    margin-right: 5px;
+}
+
+.caret img {
+    width: 15px;
+    height: 15px;
+    transform: rotate(90deg);
+    transition: 0.2s;
+}
+
+.product.visible .caret img {
+    transform: rotate(180deg);
 }
 
 li.technology {

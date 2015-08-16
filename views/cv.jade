@@ -52,7 +52,10 @@ title
           ul.products
             each product in entry.products
               li.product
-                .title= product.title
+                .title
+                  .caret
+                    img(src="img/monoforce.svg")
+                  span= product.title
                 .summary= product.summary
         if entry.technologies
           span Technologies: 
