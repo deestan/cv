@@ -203,3 +203,30 @@ li.technology:last-child .comma {
     color: #2A853E;
     text-decoration: underline;
 }
+
+@keyframes woah {
+    0%   { background: red }
+    14%  { background: orange }
+    29%  { background: yellow }
+    43%  { background: green }
+    57%  { background: cyan }
+    71%  { background: violet }
+    85%  { background: magenta }
+    100% { background: red }
+}
+
+@-webkit-keyframes woah {
+    0%   { background: red }
+    14%  { background: orange }
+    29%  { background: yellow }
+    43%  { background: green }
+    57%  { background: cyan }
+    71%  { background: violet }
+    85%  { background: magenta }
+    100% { background: red }
+}
+
+.woah {
+    animation: woah 1s linear 0 infinite;
+    -webkit-animation: woah 10s linear 0 infinite;
+}

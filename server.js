@@ -1,4 +1,5 @@
 var express = require('express');
+var generateSilly = require('./silly');
 
 var app = express();
 
@@ -9,6 +10,7 @@ app.use(express.static(__dirname + '/static'));
 var cv = JSON.parse(require('fs').readFileSync('helge-cv.json'));
 
 app.get('/', function (req, res) {
+  cv.silly = generateSilly();
   res.render('cv', cv);
 });
 
