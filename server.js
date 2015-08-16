@@ -1,5 +1,5 @@
 var express = require('express');
-var generateSilly = require('./silly');
+var generateSilly = require('./lib/silly');
 
 var app = express();
 

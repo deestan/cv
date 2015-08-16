@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "Personal CV for Helge Holm",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "./node_modules/forever/bin/forever --minUptime=1000 --spinSleepTime=1000 -w server.js"
   },
