@@ -1,3 +1,7 @@
+html {
+    background: #E9FEEE;
+}
+
 body, html, ul, p {
     margin: 0;
     padding: 0;
@@ -173,4 +177,20 @@ li.technology, ul.technologies {
 
 li.technology:last-child .comma {
     display: none;
+}
+
+.bottom {
+    display: flex;
+    background: #E9FEEE;
+}
+
+.bottom .button-segment {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.bottom a {
+    background: none;
+    color: #2A853E;
+    text-decoration: underline;
 }
