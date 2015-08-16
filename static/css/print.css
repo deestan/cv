@@ -7,7 +7,7 @@
         color: #000;
     }
 
-    li li {
+    li li, li.interest, li.project {
         page-break-inside: avoid;
     }
 
