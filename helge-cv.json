@@ -186,23 +186,6 @@
       ]
     },
     {
-      "start": "1999",
-      "end": "2004",
-      "title": "Night shift logistics",
-      "employer": [
-        "Marine Harvest AS",
-        "Hydro Seafood AS"
-      ],
-      "location": "Bergen, Norway",
-      "hats": [
-        "allocation of harvest",
-        "toll documents",
-        "data entry",
-        "system migration",
-        "fax spotting"
-      ]
-    },
-    {
       "start": "2003",
       "end": "2004",
       "title": "Agent",
@@ -220,6 +203,23 @@
       "technologies": [
         "Java",
         "debian"
+      ]
+    },
+    {
+      "start": "1999",
+      "end": "2004",
+      "title": "Night shift logistics",
+      "employer": [
+        "Marine Harvest AS",
+        "Hydro Seafood AS"
+      ],
+      "location": "Bergen, Norway",
+      "hats": [
+        "allocation of harvest",
+        "toll documents",
+        "data entry",
+        "system migration",
+        "fax spotting"
       ]
     },
     {
