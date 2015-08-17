@@ -80,15 +80,15 @@
       "products": [
         {
           "title": "BRIK Video",
-          "summary": "Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
+          "summary": "Structured video database and frontend for professional content. Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
         },
         {
           "title": "BRIK CMS",
-          "summary": "Maintenance and extension. Mix of solo work and team of 2. Developed by former colleague. Based on Microsoft IIS and a mix of VB.NET and C#"
+          "summary": "Media- and organization-optimized web content management system. Maintenance and extension. Mix of solo work and team of 2. Developed by former colleague. Based on Microsoft IIS and a mix of VB.NET and C#"
         },
         {
           "title": "Olympiatoppen Skjemadatabase",
-          "summary": "Initial work as team effort, team of 3. Took over project completion and further maintenance alone. Based on Microsoft IIS and C#."
+          "summary": "System for processing, reporting, and editing imported form submissions from More. Initial work as team effort, team of 3. Took over project completion and further maintenance alone. Based on Microsoft IIS and C#."
         },
         {
           "title": "Exor Live",
