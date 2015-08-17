@@ -86,7 +86,7 @@ li.p-experience, li.p-education {
     display: none;
 }
 
-li.p-experience:nth-child(-n+3), li.p-education:nth-child(-n+3) {
+li.p-experience:nth-child(-n+4), li.p-education:nth-child(-n+3) {
     display: block;
 }
 
