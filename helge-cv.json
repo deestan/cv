@@ -197,8 +197,13 @@
         "internal tools development"
       ],
       "products": [
-        "Hardware and software to play music in one of the bathroom stall. Team of 1-2. Written in Java using JNI.",
-        "Monitoring tool. Show operational status of internal servers. Team of 1-2. Written in Java."
+        {
+          "title": "Dassplayer",
+          "summary": "Hardware and software to play music in one of the bathroom stall. Team of 1-2. Written in Java using JNI."
+        }, {
+          "title": "Monitoring tool",
+          "summary": "Show operational status of internal servers. Team of 1-2. Written in Java."
+        }
       ],
       "technologies": [
         "Java",
@@ -235,7 +240,10 @@
         "client programming"
       ],
       "products": [
-        "Full time development of live messaging system, server and client. Team of 4. Written in Java."
+        {
+          "title": "Druantia",
+          "summary": "Full time development of live messaging system, server and client. Team of 4. Continuation of university course project. Written in Java."
+        }
       ],
       "technologies": [
         "java"
