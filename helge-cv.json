@@ -80,7 +80,7 @@
       "products": [
         {
           "title": "BRIK Video",
-          "summary": "Structured video database and frontend for professional content. Developed from the ground up as part of a team of 2-3. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
+          "summary": "Structured video database and frontend for professional content. Developed from the ground up as part of a team of 2-3. Made up of a myriad of subsystems. Based on NodeJS, Neo4j, backed by Amazon EC2 and S3."
         },
         {
           "title": "BRIK CMS",
