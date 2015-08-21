@@ -230,6 +230,10 @@ li.technology:last-child .comma {
     }
 }
 
+.print {
+    display: none;
+}
+
 /* silliness */
 
 @keyframes woah {

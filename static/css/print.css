@@ -29,4 +29,10 @@
     .bottom {
         display: none;
     }
+
+    .print {
+        border-top: 1px solid black;
+        display: block;
+        text-align: center;
+    }
 }
