@@ -29,6 +29,11 @@
         "url": "https://github.com/deestan/srt2vtt"
       },
       {
+        "title": "vtt-adjust",
+        "summary": "Library for adjusting misaligned or desynced captions in a .vtt (WebVTT) file.  Node.js module written in JavaScript.",
+        "url": "https://github.com/deestan/vtt-adjust"
+      },
+      {
         "title": "Space Invaders for Windows",
         "summary": "Space Invaders clone I wrote for my kids as a vessel for exploring the Unity engine.",
         "url": "https://plyply.com/spaceinvaders/spaceinvaders-setup.msi"
