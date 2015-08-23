@@ -1,4 +1,8 @@
 @media print {
+    .dragon {
+        display: none;
+    }
+
     * {
         transition: none !important;
     }
